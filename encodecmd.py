@@ -16,7 +16,7 @@
 # of the output file is specified at the top of the script.
 
 # Example usage:
-# Suppose the input file is named "unencoded.cmd" and contains the text "echo Hello, world!". Running this script will
+# Suppose the input file is named "unencoded.txt" and contains the text "echo Hello, world!". Running this script will
 # generate an output file named "encoded.cmd" containing the encoded message. To decode the message, the output file
 # should be run as a Windows command script.
 
@@ -30,7 +30,6 @@ import os
 input_file = "unencoded.cmd"
 output_file = "encoded.cmd"
 
-
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
 # Create a dictionary for the key
@@ -42,6 +41,9 @@ for letter in alphabet:
 
 # Print the key for reference and write it to output file
 with open(output_file, 'w') as f:
+    # Add "echo off" to the first line of the output file
+    f.write("echo off\n")
+    
     key_items = list(key.items())
     random.shuffle(key_items)
     for letter, value in key_items:
