@@ -1,6 +1,12 @@
 # EncodeCMD
 This program encodes a given input file using a randomly generated key and writes the result to an output file. The encoding algorithm replaces each letter in the input file with a unique string of 6 lowercase letters, followed by the original letter enclosed in percentage signs. Non-letter characters are left as is.
 
+## Disclaimer
+
+This script is for educational and demonstration purposes only. The author does not endorse or condone the use of this script for any criminal or malicious activities and it should only be used where explicitly allowed with proper permission.
+
+This script should be used with caution, as it will alter the KeePass configuration file and delete any previously configured triggers. Use of this script may result in unexpected behavior and potentially break the KeePass application. Use at your own risk.
+
 ## Description:
 This code encodes a command script using a substitution cipher. It generates a random lowercase alphabet table key for each
 letter in the English alphabet. Each key consists of a string of 6 lowercase letters, followed by the original letter
@@ -22,3 +28,6 @@ of the output file is specified at the top of the script.
 Suppose the input file is named "unencoded.txt" and contains the text "echo Hello, world!". Running this script will
 generate an output file named "encoded.cmd" containing the encoded message. To decode the message, the output file
 should be run as a Windows command script.
+
+
+![alt text](https://github.com/ATTACKnDEFEND/CVE-2023-24055-POC/blob/main/images/KLEARPASS.png)
