@@ -30,4 +30,4 @@ generate an output file named "encoded.cmd" containing the encoded message. To d
 should be run as a Windows command script.
 
 
-![alt text](https://github.com/ATTACKnDEFEND/CVE-2023-24055-POC/blob/main/images/KLEARPASS.png)
+![alt text]([https://github.com/ATTACKnDEFEND/CVE-2023-24055-POC/blob/main/images/KLEARPASS.png](https://github.com/ATTACKnDEFEND/EncodeCMD/blob/main/images/running_script.png))
