@@ -29,5 +29,6 @@ Suppose the input file is named "unencoded.txt" and contains the text "echo Hell
 generate an output file named "encoded.cmd" containing the encoded message. To decode the message, the output file
 should be run as a Windows command script.
 
+![alt text](https://github.com/ATTACKnDEFEND/EncodeCMD/blob/main/images/running_script.png)
 
-![alt text]([https://github.com/ATTACKnDEFEND/CVE-2023-24055-POC/blob/main/images/KLEARPASS.png](https://github.com/ATTACKnDEFEND/EncodeCMD/blob/main/images/running_script.png))
+
