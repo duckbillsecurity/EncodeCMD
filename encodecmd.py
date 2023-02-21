@@ -1,11 +1,14 @@
 #Description:
 #This code encodes a command script using a substitution cipher. It generates a random lowercase alphabet table key for each
-#letter in the English alphabet. Each key consists of a string of 6 lowercase letters, followed by the original letter
-#enclosed in percentage signs, forming a unique string. The code then reads an input file, converts it to lowercase,
+#letter in the English alphabet. Each letter key consists of a string of 6 lowercase letters, enclosed in percentage signs,
+#forming a unique string. The code then reads an input file, converts it to lowercase,
 #and substitutes each letter with its corresponding key value. Non-letter characters are left unchanged. The encoded
 #message is then written to an output file along with the randomly generated key for each letter. The output file
 #also includes a full encoded cmd file that can be used by the user. If the input file is not found, an error message is
 #displayed, and the program exits.
+
+# Author: David Weir
+# Date: 19/02/2023
 
 # Input:
 # The input file should be a text file with any arbitrary length and content, and must be located in the same directory
@@ -19,9 +22,6 @@
 # Suppose the input file is named "unencoded.txt" and contains the text "echo Hello, world!". Running this script will
 # generate an output file named "encoded.cmd" containing the encoded message. To decode the message, the output file
 # should be run as a Windows command script.
-
-# Author: David Weir
-# Date: 20/02/2023
 
 import random
 import os
@@ -41,8 +41,8 @@ for letter in alphabet:
 
 # Print the key for reference and write it to output file
 with open(output_file, 'w') as f:
-    # Add "echo off" to the first line of the output file
-    f.write("echo off\n")
+    # Add "@echo off" to the first line of the output file
+    f.write("@echo off\n")
     
     key_items = list(key.items())
     random.shuffle(key_items)
