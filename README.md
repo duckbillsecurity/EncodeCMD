@@ -1,7 +1,7 @@
 ![alt text](https://github.com/ATTACKnDEFEND/EncodeCMD/blob/main/images/encodecmd.png)
 
 # EncodeCMD
-This program encodes a given input file using randomly generated keys and writes the result to an output file. The encoding algorithm replaces each alphabetical letter in the input file with a unique string of 6 lowercase letters. Non alphabetical characters are left as is.
+Python script encodes a given input file using randomly generated keys and writes the result to an output file. The encoding algorithm replaces each alphabetical letter in the input file with a unique string of 6 lowercase letters. Non alphabetical characters are left as is.
 
 ## Disclaimer
 
