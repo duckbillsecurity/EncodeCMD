@@ -6,12 +6,8 @@
 # The output file also includes a full encoded cmd file that can be used by the user. 
 # If the input file is not found, an error message is displayed, and the program exits.
 
-# Author: David Weir
-# Date: 19/02/2023
-
 # Input:
-# The input file should be a text file with any arbitrary length and content, and must be located in the same directory
-# as this script. The name of the input file is specified at the top of the script.
+# The input file should be a text file with any arbitrary length and content. The name of the input file is specified at the top of the script.
 
 # Output:
 # The output file will be a text file containing the encoded message in the format of a Windows command script. The name
