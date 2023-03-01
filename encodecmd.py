@@ -22,7 +22,7 @@
 # The name of the output file is specified at the top of the script.
 
 # Example usage:
-# Suppose the input file is named "unencoded.txt" and contains the text "echo Hello, world!". Running this script will
+# Suppose the input file is named "unencoded.cmd" and contains the text "echo Hello, world!". Running this script will
 # generate an output file named "encoded.cmd" containing the encoded message. To decode the message, the output file
 # should be run as a Windows command script.
 
