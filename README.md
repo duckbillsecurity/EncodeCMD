@@ -14,12 +14,12 @@ The output file also includes a full encoded cmd file that can be used by the us
 If the input file is not found, an error message is displayed, and the program exits.
 
 ## Input:
-The input file should be a text file in the format of a Windows command script with any arbitrary length and content. 
+The input file should be a text file in the format of a Windows command script. 
 The name of the input file is specified at the top of the script.
 
 ## Output:
-The output file will be a text file containing the encoded message in the format of a Windows command script. The name
-of the output file is specified at the top of the script.
+The output file will be a text file containing the encoded message in the format of a Windows command script. 
+The name of the output file is specified at the top of the script.
 
 ## Example usage:
 Suppose the input file is named "unencoded.txt" and contains the text "echo Hello, world!". Running this script will
