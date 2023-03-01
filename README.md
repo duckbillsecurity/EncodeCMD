@@ -22,8 +22,8 @@ of the output file is specified at the top of the script.
 
 ## Example usage:
 Suppose the input file is named "unencoded.txt" and contains the text "echo Hello, world!". Running this script will
-generate an output file named "encoded.cmd" containing the encoded message. To decode the message, the output file
-should be run as a Windows command script.
+generate an output file named "encoded.cmd" containing the encoded message. The encoded output file
+can then be run as a Windows command script.
 
 ![alt text](https://github.com/ATTACKnDEFEND/EncodeCMD/blob/main/sample.png)
 
