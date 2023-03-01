@@ -6,6 +6,13 @@
 # The output file also includes a full encoded cmd file that can be used by the user. 
 # If the input file is not found, an error message is displayed, and the program exits.
 
+# Disclaimer
+# This script is for educational and demonstration purposes only. 
+# The author does not endorse or condone the use of this script for any criminal or malicious activities and it should only be used where explicitly
+# allowed with proper permission.
+
+# Author: Ag3nt047
+
 # Input:
 # The input file should be a text file with any arbitrary length and content. The name of the input file is specified at the top of the script.
 
