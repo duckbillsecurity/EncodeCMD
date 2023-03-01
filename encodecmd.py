@@ -18,8 +18,8 @@
 # The name of the input file is specified at the top of the script.
 
 # Output:
-# The output file will be a text file containing the encoded message in the format of a Windows command script. The name
-# of the output file is specified at the top of the script.
+# The output file will be a text file containing the encoded message in the format of a Windows command script. 
+# The name of the output file is specified at the top of the script.
 
 # Example usage:
 # Suppose the input file is named "unencoded.txt" and contains the text "echo Hello, world!". Running this script will
