@@ -1,14 +1,14 @@
 ![alt text](https://github.com/ATTACKnDEFEND/EncodeCMD/blob/main/images/encodecmd.png)
 
 # EncodeCMD
-Python script encodes a given input file using randomly generated keys and writes the result to an output file. The encoding algorithm replaces each alphabetical letter in the input file with a unique string of 6 lowercase letters. Non alphabetical characters are left as is.
+Python script encodes a given Windows command script input file using randomly generated keys and writes the result to an output file. The encoding algorithm replaces each alphabetical letter in the input file with a unique string of 6 lowercase letters. Non alphabetical characters are left as is.
 
 ## Disclaimer
 
 This script is for educational and demonstration purposes only. The author does not endorse or condone the use of this script for any criminal or malicious activities and it should only be used where explicitly allowed with proper permission.
 
 ## Description:
-This code encodes a command script using a substitution cipher. It generates a random lowercase alphabet table key for each
+This code encodes a Windows command script using a substitution cipher. It generates a random lowercase alphabet table key for each
 letter in the English alphabet. Each key consists of a string of 6 lowercase letters forming a unique string. 
 The code then reads an input file, converts it to lowercase, and substitutes each letter with its corresponding key value. 
 Non-letter characters are left unchanged. The encoded message is then written to an output file along with the randomly generated key for each letter.
