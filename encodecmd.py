@@ -14,7 +14,8 @@
 # Author: Ag3nt047
 
 # Input:
-# The input file should be a text file with any arbitrary length and content. The name of the input file is specified at the top of the script.
+# The input file should be a text file in the format of a Windows command script. 
+# The name of the input file is specified at the top of the script.
 
 # Output:
 # The output file will be a text file containing the encoded message in the format of a Windows command script. The name
