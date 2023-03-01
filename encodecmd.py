@@ -1,11 +1,10 @@
 #Description:
 #This code encodes a command script using a substitution cipher. It generates a random lowercase alphabet table key for each
-#letter in the English alphabet. Each letter key consists of a string of 6 lowercase letters, enclosed in percentage signs,
-#forming a unique string. The code then reads an input file, converts it to lowercase,
-#and substitutes each letter with its corresponding key value. Non-letter characters are left unchanged. The encoded
-#message is then written to an output file along with the randomly generated key for each letter. The output file
-#also includes a full encoded cmd file that can be used by the user. If the input file is not found, an error message is
-#displayed, and the program exits.
+#letter in the English alphabet. Each key consists of a string of 6 lowercase letters forming a unique string. 
+#The code then reads an input file, converts it to lowercase, and substitutes each letter with its corresponding key value. 
+#Non-letter characters are left unchanged. The encoded message is then written to an output file along with the randomly generated key for each letter.
+#The output file also includes a full encoded cmd file that can be used by the user. 
+#If the input file is not found, an error message is displayed, and the program exits.
 
 # Author: David Weir
 # Date: 19/02/2023
