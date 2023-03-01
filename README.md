@@ -1,3 +1,5 @@
+![alt text](https://github.com/ATTACKnDEFEND/EncodeCMD/blob/main/images/encodecmd.png)
+
 # EncodeCMD
 This program encodes a given input file using randomly generated keys and writes the result to an output file. The encoding algorithm replaces each alphabetical letter in the input file with a unique string of 6 lowercase letters. Non alphabetical characters are left as is.
 
@@ -26,6 +28,6 @@ Suppose the input file is named "unencoded.cmd" and contains the text "echo Hell
 generate an output file named "encoded.cmd" containing the encoded message. The encoded output file
 can then be run as a Windows command script.
 
-![alt text](https://github.com/ATTACKnDEFEND/EncodeCMD/blob/main/sample.png)
+![alt text](https://github.com/ATTACKnDEFEND/EncodeCMD/blob/main/images/sample.png)
 
 
