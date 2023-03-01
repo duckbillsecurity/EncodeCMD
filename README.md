@@ -7,16 +7,14 @@ This script is for educational and demonstration purposes only. The author does 
 
 ## Description:
 This code encodes a command script using a substitution cipher. It generates a random lowercase alphabet table key for each
-letter in the English alphabet. Each key consists of a string of 6 lowercase letters, followed by the original letter
-enclosed in percentage signs, forming a unique string. The code then reads an input file, converts it to lowercase,
-and substitutes each letter with its corresponding key value. Non-letter characters are left unchanged. The encoded
-message is then written to an output file along with the randomly generated key for each letter. The output file
-also includes a full encoded cmd file that can be used by the user. If the input file is not found, an error message is
-displayed, and the program exits.
+letter in the English alphabet. Each key consists of a string of 6 lowercase letters forming a unique string. 
+The code then reads an input file, converts it to lowercase, and substitutes each letter with its corresponding key value. 
+Non-letter characters are left unchanged. The encoded message is then written to an output file along with the randomly generated key for each letter.
+The output file also includes a full encoded cmd file that can be used by the user. 
+If the input file is not found, an error message is displayed, and the program exits.
 
 ## Input:
-The input file should be a text file with any arbitrary length and content, and must be located in the same directory
-as this script. The name of the input file is specified at the top of the script.
+The input file should be a text file with any arbitrary length and content. The name of the input file is specified at the top of the script.
 
 ## Output:
 The output file will be a text file containing the encoded message in the format of a Windows command script. The name
